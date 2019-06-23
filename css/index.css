@@ -23,7 +23,7 @@ body{
    vertical-align: middle;
    cursor: pointer;
 }
-.postButton-1{
+.postBtn1{
    background: rgb(233, 193, 14);
    color:black ;
    margin: 10px 10px;
@@ -32,11 +32,11 @@ body{
    font-size: 16px;
    font-weight: bold;
 }
-input.postButton-1:hover {
+input.postBtn1:hover {
    color:rgb(232, 220, 233);
    background: #0d8fdb;}
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-.signUpBtn {
+.signUp {
    cursor: pointer;
 }
 #newPostTitle {

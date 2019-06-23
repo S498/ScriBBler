@@ -2,16 +2,16 @@ function SignIn() {
     document.getElementById('signInModal').style.display='block';
 }
     
-function signUp() {
-    document.getElementById('signUpBtnModal').style.display='block';
+function SignUp() {
+    document.getElementById('signUpModal').style.display='block';
 }
 
 function onCloseModalClicked() {
     document.getElementById('signInModal').style.display='none';
-    document.getElementById('signUpBtnModal').style.display='none';
+    document.getElementById('signUpModal').style.display='none';
 }
 
-function opensignUpBtnButton(){
-    document.getElementById('signUpBtnModal').style.display='block';
+function openSignUpButton(){
+    document.getElementById('signUpModal').style.display='block';
 }
     

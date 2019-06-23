@@ -13,8 +13,8 @@
     <div id="main-container-div">
         <div class="header">
                                 
-            <input type="button" value="Sign Up" onclick="signUp()" id="signUpBtn" class="signButton">
-            <input type="button" value="Sign In" onclick="SignIn()" id="signIn" class="signButton">
+            <input type="button" value="Sign Up" onclick="SignUp()" id="signUp" class="signBtn">
+            <input type="button" value="Sign In" onclick="SignIn()" id="signIn" class="signBtn">
             <a class="logo-title" id="pageTitle" href="..\index.html">ScriBBler</a></div>
             <p class="logo-text">Explore, Imagine, Create</p>
         </div>
@@ -38,16 +38,16 @@
                     <button type="submit" class="signinbtn">Sign In</button>
                 </div>
             </div>
-            <div id="signUpBtnPrompt" class="signUpBtnForm">Not a member?
-                <span id="" class="signUpBtn" onclick="signUp()">Sign Up</span>
+            <div id="signUpPrompt" class="signUpForm">Not a member?
+                <span id="" class="signUp" onclick="SignUp()">Sign Up</span>
             </div>
         </form>
     </div>
 
-    <div id="signUpBtnModal" class="modal">
+    <div id="signUpModal" class="modal">
         <div class="modal-content-sigup">
             <form class="modal-content-sigUp" action="/action_page.php">
-                <div class="container-signUpBtn">
+                <div class="container-signUp">
                     <span onclick="onCloseModalClicked()" class="close" title="Close Modal">&times;</span>
                     <h1>Get Started</h1>
                     <hr>
@@ -68,7 +68,7 @@
                     </label>
                     <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
                     <div class="clearfix">
-                        <button type="submit" class="signUpBtnbtn">Sign Up</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
                         <button type="button" class="cancelbtn">Clear</button>
                         
                     </div>
